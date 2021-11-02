@@ -1,8 +1,8 @@
 import React from 'react'
-import './Insta.css'
+import './signin.css'
 import insta from './insta.png'
 
-const Insta = () => {
+const Signin = () => {
     return (
         <>
         <div className="auth">
@@ -27,7 +27,7 @@ const Insta = () => {
               <div className="signupdiv">
                     <div className="abcd">
                         <span className="account signup">Don't have an account?</span>
-                        <a className="signup" href="#">Sign up</a>
+                        <a className="signup" href="/signup">Sign up</a>
                     </div>  
                 </div>  
         </section> 
@@ -38,4 +38,4 @@ const Insta = () => {
     )
 }
 
-export default Insta
+export default Signin
